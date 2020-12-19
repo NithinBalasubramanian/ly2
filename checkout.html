@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lumber & Yarn</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+	<link rel="stylesheet" href="./assets/vendor/swiperjs/swiper-bundle.min.css">
+
+	<link rel="stylesheet" href="./assets/css/main.css?v=1.15">
+
+</head>
+
+<body>
+	<header class="top-header">
+		<div class="container">
+			<div class="row flex-end">
+				<div class="header-icon-group">
+					<p class="icon-label">Download App</p>
+					<div class="header-icon"><a href="#"><i class="fab fa-google-play"></i></a></div>
+					<div class="header-icon"><a href="#"><i class="fab fa-app-store-ios"></i></a></div>
+				</div>
+				<div class="header-icon-group">
+					<div class="header-icon"><i class="fas fa-phone"></i></div>
+					<p class="icon-label"><a href="tel:1800123456">1800 123 456</a></p>
+				</div>
+				<!-- <div class="header-divider"></div> -->
+				<div class="header-icon-group">
+					<div class="header-icon"><i class="fas fa-envelope"></i></div>
+					<p class="icon-label"><a href="mailto:support@l&y.com">support@l&y.com</a></p>
+				</div>
+				<div class="header-icon-group">
+					<div class="header-icon"><a href="#"><i class="fab fa-youtube"></i></a></div>
+					<div class="header-icon"><a href="#"><i class="fab fa-facebook-square"></i></a></div>
+					<div class="header-icon"><a href="#"><i class="fab fa-twitter"></i></a></div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<header class="main-header">
+		<div class="container">
+			<div class="row align-center">
+				<div class="brand">
+					<img src="./assets/images/logo.jpg" alt="L&Y Stores" class="logo">
+				</div>
+				<button class="location-dropdown sidebar-open" id="location-sidebar-btn">
+					<span class="location-marker"><i class="fas fa-map-marker-alt"></i></span>
+					<span class="current-location">DS-MAX Sandalwood, Nagasandra</span>
+				</button>
+				<div class="category-search-dropdown">
+					<div class="category-search-container">
+						<select name="" id="" class="search-dropdown">
+							<option value="">All Categories</option>
+							<option value="">Category</option>
+						</select>
+						<input type="text" class="search-field" id="search-field-input" placeholder="Search Products">
+						<label class="category-search-icon" for="search-field-input">
+							<i class="fas fa-search"></i>
+						</label>
+					</div>
+				</div>
+				<div class="header-action-group">
+					<a href="#" class="header-action sign-in-action">
+						<i class="fas fa-user-alt fa-fw"></i>
+						<span class="header-action-label">Sign In / Sign Up</span>
+					</a>
+					<a href="checkout.html" class="header-action cart-action">
+						<i class="fas fa-shopping-cart fa-fw"></i>
+						<span class="header-action-label">Cart</span>
+					</a>
+				</div>
+				<div class="header-menu">
+					<button class="menu-btn menu-open">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="container ">
+            <div class="cart_part">
+                <div class="row">
+					<div class="col-md-8 address_part">
+						<div class="account_part">
+							<h4>Account</h4>
+							<p>To place order login to existing account or sign up</p>
+							<div class="clickarea">
+								<div class="click">
+									<p>Have an account ?</p>
+									<b>Login</b>
+								</div>
+								<div class="click">
+									<p>Create an account</p>
+									<b>Sign up</b>
+								</div>
+							</div>
+						</div>
+						<div class="delivery_part">
+							<h4>Delivery address</h4>
+							<div class="sub">
+								<div class="sub_part">
+									<h4>Home</h4>
+									<p>#45/121 happy valley<br>Kotagiri<br>The Nilgiris<br>Tamil nadu - 643217<br>India</p>
+									<div class="sub_check">
+										<input type="checkbox" id="delever">
+										<label for="delever">Delever Here</label>
+										<input type="checkbox" id="bill">
+										<label for="bill">Bill Here</label>
+									</div>
+								</div>
+								<div class="sub_part">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.88654031276!2d77.49085223374693!3d12.953959986896871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1608015448769!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+									<!-- <div id="googleMap" style="width:100%;height:100%;"></div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 payment_part">
+						<div class="cart">
+							<h4>Cart Summary</h4>
+							<div class="cart_listout">
+								<div class="cart_products">
+									<h5>Product name</h5>
+									<p>Size</p>
+									<div class="pricing">
+										<div class="price">
+											<del>MRP Rs 3250</del>
+											<p>Rs 2500.00</p>
+										</div>
+										<div class="qty">
+											<select name="" id="">
+												<option value="">2</option>
+												<option value="">1</option>
+											</select>
+										</div>
+										<div class="sub_total">
+											Rs 5000.00
+										</div>
+										<div class="cross">
+											<i class="fa fa-times" aria-hidden="true"></i>
+										</div>
+									</div>
+									<div class="store">
+										<p>Store name 1</p>
+										<p>Delivery by Jan 1</p>
+									</div>
+								</div>
+								<div class="cart_products">
+									<h5>Product name</h5>
+									<p>Size</p>
+									<div class="pricing">
+										<div class="price">
+											<del>MRP Rs 3250</del>
+											<p>Rs 2500.00</p>
+										</div>
+										<div class="qty">
+											<select name="" id="">
+												<option value="">2</option>
+												<option value="">3</option>
+											</select>
+										</div>
+										<div class="sub_total">
+											Rs 5000.00
+										</div>
+										<div class="cross">
+											<i class="fa fa-times" aria-hidden="true"></i>
+										</div>
+									</div>
+									<div class="store">
+										<p>Store name 1</p>
+										<p>Delivery by Jan 1</p>
+									</div>
+								</div>
+							</div>
+							<div class="billing_details">
+								<h4>Billing Details</h4>
+								<div class="billing_splits">
+									<p>Sub Total :<span>Rs 10,000</span></p>
+									<p>Discount :<span>Rs 500</span></p>
+									<p>GST :<span>Rs 500</span></p>
+									<p><b>Grand Total :<span>Rs 10,000</span></b></p>
+								</div>
+								<button class="pay_now">Pay Now</button>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </section>
+
+		<section class="container">
+			<div class="testimonials">
+				<h3 class="section-title">Testimonials</h3>
+				<div class="testimonial-container swiper-container" id="testimonials">
+					<div class="track-arrow arrow-right"></div>
+					<div class="track-arrow arrow-left"></div>
+					<div class="swiper-wrapper">
+						<div class="testimonial-item swiper-slide">
+							<i class="quot-icon"></i>
+							<p class="testimonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quisquam assumenda quae consequatur saepe totam nulla harum quibusdam veritatis libero.</p>
+							<h5 class="testimonial-author">Lorem ipsum dolor</h5>
+							<h6 class="testimonial-desg">Lorem ipsum dolor sit.</h6>
+						</div>
+						<div class="testimonial-item swiper-slide">
+							<i class="quot-icon"></i>
+							<p class="testimonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quisquam assumenda quae consequatur saepe totam nulla harum quibusdam veritatis libero.</p>
+							<h5 class="testimonial-author">Lorem ipsum dolor</h5>
+							<h6 class="testimonial-desg">Lorem ipsum dolor sit.</h6>
+						</div>
+						<div class="testimonial-item swiper-slide">
+							<i class="quot-icon"></i>
+							<p class="testimonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quisquam assumenda quae consequatur saepe totam nulla harum quibusdam veritatis libero.</p>
+							<h5 class="testimonial-author">Lorem ipsum dolor</h5>
+							<h6 class="testimonial-desg">Lorem ipsum dolor sit.</h6>
+						</div>
+						<div class="testimonial-item swiper-slide">
+							<i class="quot-icon"></i>
+							<p class="testimonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quisquam assumenda quae consequatur saepe totam nulla harum quibusdam veritatis libero.</p>
+							<h5 class="testimonial-author">Lorem ipsum dolor</h5>
+							<h6 class="testimonial-desg">Lorem ipsum dolor sit.</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container">
+			<div class="brands">
+				<h3 class="section-title">Top Brands</h3>
+				<div class="brands-container swiper-container" id="brands">
+					<div class="track-arrow arrow-right"></div>
+					<div class="track-arrow arrow-left"></div>
+					<div class="swiper-wrapper brands-swiper-wrapper">
+						<div class="brand-item swiper-slide">
+							<img src="./assets/images/brands/default_logo.png" alt="">
+						</div>
+						<div class="brand-item swiper-slide">
+							<img src="./assets/images/brands/exxaro.jpg" alt="">
+						</div>
+						<div class="brand-item swiper-slide">
+							<img src="./assets/images/brands/krismar.png" alt="">
+						</div>
+						<div class="brand-item swiper-slide">
+							<img src="./assets/images/brands/logo.png" alt="">
+						</div>
+						<div class="brand-item swiper-slide">
+							<img src="./assets/images/brands/Official_Jaquar_Group_Logo.png" alt="">
+						</div>
+						<div class="brand-item swiper-slide">
+							<img src="./assets/images/brands/WhatsApp-Image-2020-07-17-at-7.02.36-PM.jpg" alt="">
+						</div>
+						<div class="brand-item swiper-slide">
+							<img src="./assets/images/brands/WhatsApp-Image-2020-07-17-at-7.05.54-PM.jpg" alt="">
+						</div>
+						<div class="brand-item swiper-slide">
+							<img src="./assets/images/brands/WhatsApp-Image-2020-07-17-at-7.45.04-PM.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="main-footer">
+		<div class="container">
+			<div class="footer-col-group">
+				<div class="footer-col">
+					<h3 class="footer-col-title">Information</h3>
+					<ul class="footer-links">
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Shipping</a></li>
+						<li><a href="#">Cancellation</a></li>
+						<li><a href="#">Returns</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h3 class="footer-col-title">Useful Links</h3>
+					<ul class="footer-links">
+						<li><a href="#">Cut-off Saw</a></li>
+						<li><a href="#">Grinder</a></li>
+						<li><a href="#">Cordless Drill</a></li>
+						<li><a href="#">Hammer Drill</a></li>
+						<li><a href="#">Tile Saw</a></li>
+						<li><a href="#">Cut-off Saw</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h3 class="footer-col-title">Follow Us</h3>
+					<div class="footer-social-links">
+						<div class="footer-social-icon"><a href="#"><i class="fab fa-youtube"></i></a></div>
+						<div class="footer-social-icon"><a href="#"><i class="fab fa-facebook-square"></i></a></div>
+						<div class="footer-social-icon"><a href="#"><i class="fab fa-twitter"></i></a></div>
+					</div>
+				</div>
+				<div class="footer-col">
+					<h3 class="footer-col-title">Download App</h3>
+					<h4 class="footer-sub-title">For Sellers</h4>
+					<div class="footer-social-links">
+						<div class="footer-social-icon"><a href="#"><i class="fab fa-google-play"></i></a></div>
+						<div class="footer-social-icon"><a href="#"><i class="fab fa-app-store-ios"></i></a></div>
+					</div>
+					<h4 class="footer-sub-title">For Buyers</h4>
+					<div class="footer-social-links">
+						<div class="footer-social-icon"><a href="#"><i class="fab fa-google-play"></i></a></div>
+						<div class="footer-social-icon"><a href="#"><i class="fab fa-app-store-ios"></i></a></div>
+					</div>
+				</div>
+				<div class="footer-col">
+					<h3 class="footer-col-title">Contact Us</h3>
+					<ul class="footer-links">
+						<li><a href="tel:1800123456"><i class="fas fa-phone"></i> 1800 123 456</a></li>
+						<li><a href="mailto:support@l&y.com"><i class="fas fa-envelope"></i> support@l&y.com</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<footer class="copy-footer">
+		<div class="container">
+			<div class="footer-col-group">
+				<div class="footer-col">
+					<p class="copy-text">&copy; 2020 L&Y. All Rights Reserved</p>
+				</div>
+				<div class="footer-col">
+					<p class="powered-text">Powered by <a href="http://steed26.com" target="_blank" rel="noopener noreferrer"><img src="./assets/images/26_footer_dark.png" alt="Steed 26"></a></p>
+				</div>
+			</div>
+		</div>
+    </footer>
+	
+	<div class="location-popup popup-wrapper" id="location-popup">
+		<div class="popup-overlay popup-dismiss"></div>
+		<div class="popup-container">
+			<button class="popup-close popup-dismiss">&times;</button>
+			<div class="popup-content">
+				<div class="popup-title">Choose Delivery Location</div>
+				<div class="location_icon">
+					<div class="list_icons">
+						<img src="https://image.shutterstock.com/image-vector/indian-city-icon-mumbaigateway-india-600w-1455972620.jpg" width="100%" height="100%" alt="">
+					</div>
+					<div class="list_icons">
+						<img src="https://image.shutterstock.com/image-vector/indian-city-icon-chhattisgarhlakshman-temple-600w-1485989381.jpg" width="100%" height="100%" alt="">
+					</div>
+					<div class="list_icons">
+						<img src="https://image.shutterstock.com/image-vector/indian-city-icon-kolkatavictoria-memorial-600w-1455972632.jpg" width="100%" height="100%" alt="">
+					</div>
+					<div class="list_icons">
+						<img src="https://image.shutterstock.com/image-vector/indian-city-icon-trivandrumsri-padmanabhaswamy-600w-1524003011.jpg" width="100%" height="100%" alt="">
+					</div>
+				</div>
+				<div class="location-search-form">
+					<div class="location-input-container">
+						<input type="text" class="location-search-input" placeholder="Enter your location">
+						<button class="search-location">
+							<i class="fas fa-map-marker-alt"></i> Use my current location
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="location-sidebar sidebar popup-wrapper" id="location-sidebar">
+		<div class="popup-overlay popup-dismiss"></div>
+		<div class="sidebar-container">
+			<button class="sidebar-close popup-dismiss">&times;</button>
+			<div class="popup-content">
+				<div class="location-search-form">
+					<div class="location-input-container">
+						<input type="text" class="location-search-input" placeholder="Enter your location">
+					</div>
+				</div>
+				<div class="location-search-results">
+					<h4 class="results-title">Recent Searches</h4>
+					<div class="location-result-item">
+						<div class="location-result-icon">
+							<i class="fas fa-history"></i>
+						</div>
+						<div class="location-result-info">
+							<h3 class="location-result-title">DS-MAX Sandalwood</h3>
+							<p class="location-result-address">Nagasandra Main Road, Nagasandra, Bengaluru, Karnataka,
+								India</p>
+						</div>
+					</div>
+					<div class="location-result-item">
+						<div class="location-result-icon">
+							<i class="fas fa-history"></i>
+						</div>
+						<div class="location-result-info">
+							<h3 class="location-result-title">DS-MAX Sandalwood</h3>
+							<p class="location-result-address">Nagasandra Main Road, Nagasandra, Bengaluru, Karnataka,
+								India</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="menu-sidebar sidebar popup-wrapper" id="menu-sidebar">
+		<div class="popup-overlay popup-dismiss"></div>
+		<div class="sidebar-container">
+			<button class="sidebar-close popup-dismiss">&times;</button>
+			<div class="popup-content">
+				<div class="sidebar-brand">
+					<img src="./assets/images/logo.jpg" alt="">
+				</div>
+				<div class="collapsible">
+					<div class="collapse-header collapse-toggle">
+						<h3 class="collapse-title">Information</h3>
+					</div>
+					<div class="collapse-body">
+						<div class="collapse-content">
+							<ul class="sidebar-links">
+								<li><a href="#">FAQ</a></li>
+								<li><a href="#">Terms & Conditions</a></li>
+								<li><a href="#">Shipping</a></li>
+								<li><a href="#">Cancellation</a></li>
+								<li><a href="#">Returns</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="collapsible">
+					<div class="collapse-header collapse-toggle">
+						<h3 class="collapse-title">Useful Links</h3>
+					</div>
+					<div class="collapse-body">
+						<div class="collapse-content">
+							<ul class="sidebar-links">
+								<li><a href="#">Cut-off Saw</a></li>
+								<li><a href="#">Grinder</a></li>
+								<li><a href="#">Cordless Drill</a></li>
+								<li><a href="#">Hammer Drill</a></li>
+								<li><a href="#">Tile Saw</a></li>
+								<li><a href="#">Cut-off Saw</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="collapsible collapsed">
+					<div class="collapse-header collapse-toggle">
+						<h3 class="collapse-title">Follow Us</h3>
+					</div>
+					<div class="collapse-body">
+						<div class="collapse-content">
+							<div class="footer-social-links">
+								<div class="footer-social-icon"><a href="#"><i class="fab fa-youtube"></i></a></div>
+								<div class="footer-social-icon"><a href="#"><i class="fab fa-facebook-square"></i></a></div>
+								<div class="footer-social-icon"><a href="#"><i class="fab fa-twitter"></i></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="collapsible collapsed">
+					<div class="collapse-header collapse-toggle">
+						<h3 class="collapse-title">Download App</h3>
+					</div>
+					<div class="collapse-body">
+						<div class="collapse-content">
+							<h4 class="footer-sub-title">For Sellers</h4>
+							<div class="footer-social-links">
+								<div class="footer-social-icon"><a href="#"><i class="fab fa-google-play"></i></a></div>
+								<div class="footer-social-icon"><a href="#"><i class="fab fa-app-store-ios"></i></a></div>
+							</div>
+							<h4 class="footer-sub-title">For Buyers</h4>
+							<div class="footer-social-links">
+								<div class="footer-social-icon"><a href="#"><i class="fab fa-google-play"></i></a></div>
+								<div class="footer-social-icon"><a href="#"><i class="fab fa-app-store-ios"></i></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="collapsible collapsed">
+					<div class="collapse-header collapse-toggle">
+						<h3 class="collapse-title">Contact Us</h3>
+					</div>
+					<div class="collapse-body">
+						<div class="collapse-content">
+							<ul class="sidebar-links">
+								<li><a href="tel:1800123456"><i class="fas fa-phone"></i> 1800 123 456</a></li>
+								<li><a href="mailto:support@l&y.com"><i class="fas fa-envelope"></i> support@l&y.com</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section id="mobile-landscape-overlay">
+		<div class="phone"></div>
+		<div class="message">
+		   Please rotate your device!
+		</div>
+	 </section>
+
+
+	<script src="./assets/vendor/swiperjs/swiper-bundle.min.js"></script>
+	<script src="./assets/js/main.js?v=1.15"></script>
+	<!-- <script>
+		function myMap() {
+		var mapProp= {
+		  zoom:5,
+		};
+		var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+		}
+		</script>
+		
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD78vCfzMnEWyfpCB2FMhEBFymAZ-xBylE&callback=myMap"></script> -->
+
+	</body>
+
+</html>
